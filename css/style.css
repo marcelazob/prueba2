@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+	--color-general:#686868;
+	--color-titulos:#303030;
+	--color-hover-menu:#FE8F01;
+	--fondo-header:#202020;
+	--fondo-footer: #353330;
+	--letra-footer: #777;
+	--fondo-gris: #F8F8F8;
+	--color-cafe: #8D7755;
+}
+body{
+	font-size: 17px;
+	color: #666;
+}
+header{
+	background-color: var(--fondo-header);
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: "Alegreya", serif;
+}
+
+p{
+	font-family:  "Alegreya Sans", sans-serif;
+}
+#hero{
+	background-image: url("../img/hero-image.jpg");
+	background-position:  center;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	padding: 10% 28%;
+}
+
+#hero h1{
+	font-size: 64px;
+	font-weight: 300;
+}
+
+#hero p{
+	font-size: 17px;
+	color: #fff;
+}
+.btn{
+	background-color: var(--color-cafe);
+	color: #fff;
+	font-family:  "Alegreya Sans", sans-serif;
+	border:0;
+}
+
+.btn:hover{
+	background-color:transparent;
+}
+
+.padding-section{
+	padding: 7% 0;
+}
+
+#location .section-titles{
+	margin-top: 60px;
+}
+
+#who-we-are .section-titles{
+	margin-top: 60px;
+}
+
+.section-titles{
+	color:var(--color-titulos);
+	font-size: 30px;
+	font-weight: 400;
+}
+
+p{
+	color: var(--color-general);
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+h3{
+	color:var(--color-titulos);
+	font-size: 18px;
+	font-weight: 300;
+}
+
+#who-we-are{
+	align-items: center;
+}
+
+#who-we-are i{
+	color:var(--color-cafe);
+}
+#baking{
+	text-align: center;
+}
+
+#baking img{
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+#location{
+	background-color: var(--fondo-gris);
+	align-items: center;
+}
+footer{
+	background-color: var(--fondo-footer);
+	padding: 15px 0;
+	color: var(--letra-footer);
+	text-align: center;
+}
+footer img {
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
